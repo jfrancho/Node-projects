@@ -24,3 +24,8 @@ http.get() & response.on()
 
 8.
 http.get() & response.pipe(bl()) ----> bl collects the data
+
+9.
+
+10.
+net.createServer()
