@@ -1,5 +1,6 @@
-Conclusion of exercises:
+Conclusion of the different exercises:
 
+______________________________________________
 1.
 console.log() ----> displays the log
 
