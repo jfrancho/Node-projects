@@ -28,4 +28,9 @@ http.get() & response.pipe(bl()) ----> bl collects the data
 9.
 
 10.
-net.createServer()
+net.createServer() -----> TCP server
+
+11.
+http.createServer() -----> HTTP server
+
+fs.createReadStream()
