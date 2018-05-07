@@ -26,6 +26,7 @@ http.get() & response.on()
 http.get() & response.pipe(bl()) ----> bl collects the data
 
 9.
+.pipe()
 
 10.
 net.createServer() -----> TCP server
@@ -33,4 +34,7 @@ net.createServer() -----> TCP server
 11.
 http.createServer() -----> HTTP server
 
-fs.createReadStream()
+fs.createReadStream() -----> Close to readFile() but streams the file contents
+
+12.
+res.writeHead(405) -----> access not allowed
