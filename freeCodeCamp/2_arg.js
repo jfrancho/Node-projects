@@ -1,5 +1,7 @@
-sum = 0;
-for (i = 0; i < process.argv.length - 2; i++) {
-    sum = sum + +process.argv[i + 2];
+var result = 0;
+
+for(var i = 2; process.argv[i]; i++) {
+  result = result + +process.argv[i];
 }
-console.log(sum);
+
+console.log(result);
