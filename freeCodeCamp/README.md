@@ -38,3 +38,9 @@ fs.createReadStream() -----> Close to readFile() but streams the file contents
 
 12.
 res.writeHead(405) -----> access not allowed
+
+13.
+.query ------> Reference to the GET query, access to the data after '?'
+Example: ".query.iso" access to the value associated to the "iso" key.
+
+var parsedUrl = url.parse(req.url, true);
