@@ -16,6 +16,9 @@ callback function
 5.
 fs.readdir() ----> reads a directory
 
+path.extname([file]) -----> extension of a file
+
+
 6.
 module.exports = function() {} ----> exports to another component
 
