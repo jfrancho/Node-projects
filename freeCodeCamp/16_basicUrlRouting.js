@@ -5,13 +5,13 @@ var port = 3000;
 var app = http.createServer(function(req, res){
   // Homepage
   if (req.url === '/') {
-    res.writeHead(200, { 'Content-type' : 'text/plain' });
+    res.writeHead(200, { 'Content-Type' : 'text/plain' });
     res.end('Welcome to the homepage');
   }
 
   // About page
   if (req.url === '/about') {
-    res.writeHead(200, { 'Content-type' : 'text/plain' });
+    res.writeHead(200, { 'Content-Type' : 'text/plain' });
     res.end('Welcome to the About page');
   }
 

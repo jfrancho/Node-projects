@@ -8,7 +8,7 @@ var app = http.createServer(function(req, res){
   answer += "Request type: " + req.method + "\n";
   answer += "Request headers: " + JSON.stringify(req.headers);
   res.writeHead(200, {
-    'Content-type' : 'text/plain'
+    'Content-Type' : 'text/plain'
   });
   res.end(answer);
 });
