@@ -13,8 +13,12 @@ app.get('/', function(req, res) {
   res.end('This is the homepage');
 })
 
-app.get('/About', function(req, res) {
+app.get('/about', function(req, res) {
   res.end('Welcome to the about page');
+})
+
+app.get('/hello/:who', function(req, res) {
+  res.end('Hello dear ' + req.params.who + '.');
 })
 
 app.get('*', function(req, res) {
