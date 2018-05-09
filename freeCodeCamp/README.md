@@ -1,4 +1,4 @@
-Conclusion of the different exercises:
+LEARNED ON THE WAY
 
 ______________________________________________
 1.
