@@ -47,3 +47,6 @@ res.writeHead(405) -----> access not allowed
 Example: ".query.iso" access to the value associated to the "iso" key.
 
 var parsedUrl = url.parse(req.url, true);
+
+29.
+res.send(req.query) ----> sends a JSON object made from URL query.
