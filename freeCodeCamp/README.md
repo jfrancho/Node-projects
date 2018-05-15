@@ -50,3 +50,15 @@ var parsedUrl = url.parse(req.url, true);
 
 29.
 res.send(req.query) ----> sends a JSON object made from URL query.
+
+31.
+var mongo = require('mongodb').MongoClient;
+
+mongo.connect(url, function(err, db) {
+  var parrots = db.collection('parrots');
+  parrots.find({
+
+    })
+})
+
+db.close();
