@@ -62,3 +62,6 @@ mongo.connect(url, function(err, db) {
 })
 
 db.close();
+
+34.
+update() ----> The first parameter is the filter, the second is the one to update.
